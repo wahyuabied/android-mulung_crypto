@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="is_tablet">false</bool>
+    <integer name="catalog_span_size">4</integer>
+    <integer name="manage_span_size">1</integer>
+    <integer name="max_text_size">300</integer>
+    <integer name="max_number_size">10</integer>
+    <integer name="max_number_currency_size">18</integer>
+    <integer name="max_number_percent_size">4</integer>
+    <dimen name="padding0_5x">4dp</dimen>
+    <dimen name="padding1x">8dp</dimen> <!--Padding Margin default-->
+    <dimen name="padding1_5x">12dp</dimen>
+    <dimen name="padding2x">16dp</dimen>
+    <dimen name="padding2_5x">20dp</dimen>
+    <dimen name="padding3x">24dp</dimen>
+    <dimen name="padding3_5x">36dp</dimen>
+    <dimen name="padding4x">48dp</dimen>
+
+    <dimen name="fontsize_xsmall">10sp</dimen>
+    <dimen name="fontsize_small">12sp</dimen>
+    <dimen name="fontsize_medium">14sp</dimen> <!--Textsize default-->
+    <dimen name="fontsize_large">16sp</dimen>
+    <dimen name="fontsize_xlarge">18sp</dimen>
+    <dimen name="fontsize_xxlarge">20sp</dimen>
+    <dimen name="fontsize_xxxlarge">24sp</dimen>
+    <dimen name="fontsize_big">30sp</dimen>
+    <dimen name="fontsize_xbig">32sp</dimen>
+
+    <dimen name="fontsize_xsmall_tablet_support">10sp</dimen>
+    <dimen name="fontsize_small_tablet_support">12sp</dimen>
+    <dimen name="fontsize_medium_tablet_support">14sp</dimen> <!--Textsize default-->
+    <dimen name="fontsize_large_tablet_support">16sp</dimen>
+    <dimen name="fontsize_xlarge_tablet_support">18sp</dimen>
+    <dimen name="fontsize_xxlarge_tablet_support">20sp</dimen>
+    <dimen name="fontsize_xxxlarge_tablet_support">24sp</dimen>
+    <dimen name="fontsize_big_tablet_support">30sp</dimen>
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "207290302074",
+    "project_id": "mulung-crypto",
+    "storage_bucket": "mulung-crypto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207290302074:android:d258fae3e6379cfc09c5c3",
+        "android_client_info": {
+          "package_name": "com.wahyuabid.mulungcrypto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207290302074-r5v2fismrfjp42kjfvjehjt8uihml58m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgttzp1Y_ptRgFG8VhvvUW22A3h5xpHDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207290302074-r5v2fismrfjp42kjfvjehjt8uihml58m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

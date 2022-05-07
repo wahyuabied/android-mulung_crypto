@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="is_tablet">true</bool>
+    <integer name="catalog_span_size">5</integer>
+    <integer name="manage_span_size">2</integer>
+
+    <dimen name="fontsize_xsmall_tablet_support">14sp</dimen>
+    <dimen name="fontsize_small_tablet_support">16sp</dimen>
+    <dimen name="fontsize_medium_tablet_support">18sp</dimen> <!--Textsize default-->
+    <dimen name="fontsize_large_tablet_support">20sp</dimen>
+    <dimen name="fontsize_xlarge_tablet_support">22sp</dimen>
+    <dimen name="fontsize_xxlarge_tablet_support">24sp</dimen>
+    <dimen name="fontsize_xxxlarge_tablet_support">28sp</dimen>
+    <dimen name="fontsize_big_tablet_support">34sp</dimen>
+
+</resources>

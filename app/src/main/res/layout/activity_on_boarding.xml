@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_white_round"
+        android:layout_marginBottom="40dp">
+
+        <TextView
+            android:padding="@dimen/padding1x"
+            android:id="@+id/tv_skip"
+            android:layout_marginTop="@dimen/padding2x"
+            android:layout_marginEnd="@dimen/padding2x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_skip"
+            android:background="?selectableItemBackground"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/fontsize_large"
+            android:textStyle="bold"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_marginTop="@dimen/padding3x"
+            android:id="@+id/vp_onboarding"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/btn_start"
+            app:layout_constraintTop_toBottomOf="@id/tv_skip" />
+
+        <LinearLayout
+            android:id="@+id/ll_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginStart="@dimen/padding3_5x"
+            app:cornerRadius="@dimen/padding0_5x"
+            app:layout_constraintTop_toTopOf="@+id/btn_start"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_start"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/vp_onboarding">
+
+            <ImageView
+                android:id="@+id/iv_indicator_1"
+                android:layout_width="6dp"
+                android:layout_height="6dp"
+                android:background="@drawable/shape_gray_oval" />
+
+            <ImageView
+                android:id="@+id/iv_indicator_2"
+                android:layout_width="6dp"
+                android:layout_height="6dp"
+                android:layout_marginLeft="@dimen/padding1x"
+                android:layout_marginRight="@dimen/padding1x"
+                android:background="@drawable/shape_gray_oval" />
+
+            <ImageView
+                android:id="@+id/iv_indicator_3"
+                android:layout_width="6dp"
+                android:layout_height="6dp"
+                android:background="@drawable/shape_gray_oval" />
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_start"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/padding2x"
+            android:layout_marginBottom="@dimen/padding2x"
+            android:text="@string/next"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            app:cornerRadius="@dimen/padding0_5x"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/vp_onboarding"
+            app:rippleColor="@color/black12" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

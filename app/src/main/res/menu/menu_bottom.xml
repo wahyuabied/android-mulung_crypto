@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_mining"
+        android:icon="@drawable/ic_mining"
+        android:title="@string/nav_mining" />
+    <item
+        android:id="@+id/item_faucet"
+        android:icon="@drawable/ic_faucet"
+        android:title="@string/nav_faucet" />
+
+    <item
+        android:id="@+id/item_airdrop"
+        android:icon="@drawable/ic_air_drop"
+        android:title="@string/nav_airdrop" />
+</menu>

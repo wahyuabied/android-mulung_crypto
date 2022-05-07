@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/padding2x"
+    android:layout_marginTop="@dimen/padding1_5x"
+    android:layout_marginEnd="@dimen/padding2x"
+    android:layout_marginBottom="@dimen/padding1x"
+    app:cardElevation="@dimen/padding0_5x">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/padding1_5x">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/il_airdrop" />
+
+        <View
+            android:id="@+id/view_separator"
+            android:layout_marginTop="@dimen/padding1x"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black12"
+            app:layout_constraintTop_toBottomOf="@+id/iv_image" />
+
+        <TextView
+            android:id="@+id/tv_token_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding1x"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/fontsize_xlarge"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_separator"
+            tools:text="Token Wahyu Abid" />
+
+        <TextView
+            android:id="@+id/tv_label_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/padding1_5x"
+            android:layout_marginTop="@dimen/padding1x"
+            android:textColor="@color/black100"
+            android:textSize="@dimen/fontsize_large"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_token_name"
+            tools:text="U+1F680 Visit: " />
+
+        <TextView
+            android:id="@+id/tv_link"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding0_5x"
+            android:background="?selectableItemBackground"
+            android:textColor="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tv_label_link"
+            app:layout_constraintTop_toBottomOf="@+id/tv_label_link"
+            tools:text="https://www.wahyuabid.my.id" />
+
+        <TextView
+            android:id="@+id/tv_label_reward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/padding1_5x"
+            android:layout_marginTop="@dimen/padding1x"
+            android:textColor="@color/black100"
+            android:textSize="@dimen/fontsize_large"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_link"
+            tools:text="U+1F680 Reward: " />
+
+        <TextView
+            android:id="@+id/tv_reward"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding0_5x"
+            android:textColor="@color/black100"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tv_label_reward"
+            app:layout_constraintTop_toBottomOf="@+id/tv_label_reward"
+            tools:text="300 WAA For all participants" />
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/padding2x"
+            android:layout_marginTop="@dimen/padding1_5x"
+            android:text="HAHAH\nhahahah"
+            android:textColor="@color/black100"
+            app:layout_constraintTop_toBottomOf="@+id/tv_reward" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

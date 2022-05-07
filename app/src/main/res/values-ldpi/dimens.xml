@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding0_5x">2.5dp</dimen>
+    <dimen name="padding1x">5dp</dimen> <!--Padding Margin default-->
+    <dimen name="padding1_5x">7.5dp</dimen>
+    <dimen name="padding2x">10dp</dimen>
+    <dimen name="padding2_5x">12.5dp</dimen>
+    <dimen name="padding3x">15dp</dimen>
+    <dimen name="padding3_5x">17.5dp</dimen>
+    <dimen name="padding4x">20dp</dimen>
+
+    <dimen name="fontsize_xsmall">8sp</dimen>
+    <dimen name="fontsize_small">10sp</dimen>
+    <dimen name="fontsize_medium">12sp</dimen> <!--Textsize default-->
+    <dimen name="fontsize_large">14sp</dimen>
+    <dimen name="fontsize_xlarge">16sp</dimen>
+    <dimen name="fontsize_xxlarge">18sp</dimen>
+    <dimen name="fontsize_xxxlarge">20sp</dimen>
+    <dimen name="fontsize_big">24sp</dimen>
+    <dimen name="fontsize_xbig">26sp</dimen>
+
+</resources>

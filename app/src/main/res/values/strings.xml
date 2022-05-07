@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Mulung Crypto</string>
+    <string name="title_skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="title_airdrop">Crypto Airdrop</string>
+    <string name="title_faucet">Crypto Faucet</string>
+    <string name="title_mining">Crypto Mining</string>
+    <string name="subtitle_airdrop">Airdrop adalah pemberian aset kripto pada sebagian orang atau komunitas yang diberikan secara cuma-cuma maupun dengan jasa marketing. Mulung crypto akan memberikan list airdrop beserta task yang harus dilakukan</string>
+    <string name="subtitle_faucet">Secara singkat faucet bisa diartikan sebagai sistem hadiah yang memberikan hadiah dalam bentuk sebagian kecil bitcoin, ethereum, litecoin, doge dan crypto lainnya bagi pengunjung untuk diklaim.
+        Mulung crypto akan membantu menyediakan beberapa situs faucet yang masih legit untuk kalian
+    </string>
+    <string name="subtitle_mining">
+        Mulung Crypto akan memberi list beberapa website yang menyediakan layanan menambang bitcoin, ethereum, doge dan crypto lainnya secara gratis maupun berbayar.
+    </string>
+    <string name="nav_mining">Mining</string>
+    <string name="nav_faucet">Faucet</string>
+    <string name="nav_airdrop">Airdrop</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_connection_problem">Koneksi Anda Bermasalah.</string>
+    <string name="empty_airdrop_title">Ups No Airdrop !</string>
+    <string name="empty_airdrop_desc">Sorry, for now still doesn\'t have airdrop for you.</string>
+</resources>
